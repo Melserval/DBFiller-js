@@ -1,6 +1,7 @@
-// MODULE
 const readline = require('readline');
 const fs = require('fs');
+
+
 /**
  * 
  * @param {string} table table name

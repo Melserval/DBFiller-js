@@ -4,6 +4,7 @@ const DataFileInfo = require('./DataFileInfo');
 const PoolInctance = require('./PoolInctance');
 
 // ---- программа ---
+
 try {
 	const jsonText = fs.readFileSync( credentials.configFile, "utf-8");
 	const infoSet = JSON.parse(jsonText);
@@ -25,4 +26,3 @@ try {
 } catch (err) {
 	console.error("Ошибка!", err);
 }
-// --- *** ---
